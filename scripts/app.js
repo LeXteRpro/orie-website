@@ -6,6 +6,15 @@ $("#portfolio-link").click(function() {
     }, 500);
 });
 
+//Scroll Down to Contact section 
+$("#contact-link").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#cta").offset().top
+    }, 500);
+});
+
+
+
   // Anonymous function with named alias
 (function(){
 	    console.log("App started...");
