@@ -1,0 +1,293 @@
+
+
+
+@font-face {
+	font-family: arrows-regular;
+	src: url("../fonts/Arrrows-Regular.otf") format('truetype');
+}
+
+
+/* Spacing Between Logo Text*/
+h1 span {
+	padding-left: 5px;
+}
+
+
+h4 {
+	font-size: 1.3em;
+	margin-bottom: 8px;
+	font-style: italic;
+}
+
+h5 {
+	font-size: 1em;
+	
+}
+
+body {
+	background-color: #1c2021;
+}
+
+
+#banner {
+	background: none;
+	background-image: url("../images/bg3-lg.png");
+	background-repeat: no-repeat;
+	background-image: #f3f6fa;
+}
+
+/* Header Format */
+#header.alt {
+	background-color: #1c2021;
+	height: 75px;
+}
+
+/* Header Bar When Scrolled */
+#header {
+	background-color: rgba (220,220,220, 1);
+}
+
+/* Inner Info */
+.inner p {
+	padding-bottom: 5px;
+}
+
+/* Inner Info Quotation */
+.inner p:nth-child(4), p:nth-child(5)  {
+	font-size: 0.7em;
+}
+
+
+/* Center Align Social Media */
+.icon-wrapper ul {
+	text-align: center;
+}
+
+.icon-wrapper li {
+	padding-right: 5px;
+}
+
+/* Less of a Gap Between Banner and Main Content */
+body.index #main {
+	padding-top: 2em;
+}
+
+/* Arrow in Logo Text */
+.logo-arrow {
+	/* Fix font conflict with main.css */
+	text-transform: none;
+	font-family: arrows-regular;
+}
+
+
+
+
+/* ===== SKILLS TABLE ===== */
+
+.front-end {
+	width: 400px;
+}
+
+.skills > section > ul {
+	display: inline-block;
+}
+
+
+.skills > section {
+	padding: 0;
+}
+
+/* Skill Bar Wrap */
+.skill-bar {
+	height: 25px;
+	width: 50px;
+	border: 2px solid black;
+	display: inline-block;
+	margin-top: 25px;
+
+}
+
+.skills section {
+	padding-right: 25px
+}
+
+/* Table Styling */
+thead, tr, th, td {
+	border: solid 1px black;
+}
+
+/* Table Data */
+th, td {
+	width: 200px;
+}
+
+/* Table Header */
+th {
+	font-size: 0.8em;
+	font-weight: 500;
+}
+
+
+/* Skill Bar Styling For All */
+td[class^="skill"] {
+	display: block;
+	height: 25px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: none;
+	font-weight: 500;
+	background: -webkit-linear-gradient(left, rgba(212, 198, 106, 0.4), rgba(212, 198, 106, 1)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, rgba(212, 198, 106, 0.4), rgba(212, 198, 106, 1)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, rgba(212, 198, 106, 0.4), rgba(212, 198, 106, 1)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, rgba(212, 198, 106, 0.4), rgba(212, 198, 106, 1)); /* Standard syntax (must be last) */
+}
+
+/* Header of Chart */
+thead tr th {
+	background-color: rgba(200, 200, 200, 0.1);
+
+}
+
+/* Area of Chart */
+tbody tr {
+	background-color: rgba(25, 25, 25, 0.3);
+}
+
+/* Headers of Chart */
+tbody tr th {
+	background-color: rgba(100, 110, 100, 0.1);
+
+}
+
+
+/* Fix Table Fonts to fit one row */
+.long-name {
+	font-size: 0.7em;
+}
+
+/* Portfolio Background Layer */
+.wrapper.style3{
+background-color: rgba(100, 110, 100, 0.1);
+border-radius: 10px;
+}
+
+.portfolio h2 {
+	color: #E8E8E8;
+	font-size: 2em;
+}
+
+
+/* Skill Bars */
+
+.skill-html5 {
+	width: 95%;
+}
+
+.skill-css3 {
+	width: 80%;
+}
+
+.skill-javascript {
+	width: 45%;
+}
+
+/* Wordpress */
+.skill-wordpress {
+	width: 60%;
+}
+
+.skill-photoshop {
+	width: 60%;
+}
+
+.skill-indesign {
+	width: 40%;
+}
+
+.skill-illustrator {
+	width: 40%;
+}
+
+.skill-php {
+	width: 35%;
+}
+
+.skill-mysql {
+	width: 30%;
+}
+
+.skill-csharp {
+	width: 35%;
+}
+
+.skill-aspnet {
+	width: 45%;
+}
+
+.skill-database-management {
+	width: 40%;
+}
+
+/* Call to Action */
+#cta .email-wrap {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+#cta .number-wrap {
+	display: inline-block;
+
+}
+
+.content section {
+	width: 32%;
+	display: inline-block;
+	height: auto;
+	padding: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.content section img {
+	max-width: 150px;
+	clear: both;
+	margin-bottom: 25px;
+}
+
+.content .port-thumb {
+	border: 2px solid lightgray;
+	border-radius: 10px;
+}
+
+.portfolio-item {
+	border-left: 2px solid lightgray;
+	padding-left: 15px;
+}
+
+.content h3 {
+	text-align: center;
+}
+
+/*.portfolio-item {
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+}*/
+
+/* ===== END SKILLS TABLE ===== */
+
+@media (max-width: 750px) {
+
+#banner .inner header h2  {
+	font-size: 2em;
+}
+
+#banner .inner {
+	margin: 0;
+	background: rgba(52, 27, 43, 0.5);
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+}
+
+
