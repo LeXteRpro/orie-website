@@ -245,7 +245,7 @@ border-radius: 10px;
 }
 
 .content section {
-	width: 32%;
+	width: 100%;
 	display: inline-block;
 	height: auto;
 	padding: 15px;
@@ -254,8 +254,10 @@ border-radius: 10px;
 }
 
 
+
+
 .content section img {
-	max-width: 150px;
+	max-width: 85%;
 	clear: both;
 	margin-bottom: 25px;
 }
@@ -268,12 +270,40 @@ border-radius: 10px;
 .portfolio-item {
 	border-left: 2px solid lightgray;
 	padding-left: 15px;
+	width: 49%;
+	display: inline-block;
+}
+
+
+.content h2 {
+	text-align: center;
 }
 
 .content h3 {
 	text-align: center;
 }
 
+/* h2 Header Banner */
+.school-projects h2 {
+	font-size: 1.9em;
+	color: #101010;
+	text-shadow: 2px 2px lightgray;
+	font-weight: 500;
+
+}
+
+/* h3 Header Banner */
+.school-projects h3 {
+	background-color: #83d3c9;
+	padding: 15px;
+	color: #fff;
+	font-weight: 900;
+}
+
+/* Center Project Name and Image */
+.portfolio-item div {
+	text-align: center;
+}
 
 .contact-form-wrapper {
 	margin-top: 10px;
@@ -289,6 +319,49 @@ border-radius: 10px;
 #cta {
 	padding: 1em;
 }
+
+/* Portfolio Sections */
+#portfolio-doc section {
+	width: 100%;
+	background-color: #F5F5F5;
+	border-radius: 5px;
+	margin: auto;
+	padding: 10px;
+	border: 1px solid gray;
+	transition: width 0.5s;
+}
+
+/* Portfolio Sections on Hover */
+#portfolio-doc section:hover {
+	opacity: 1;
+	width: 98%;
+	margin: auto;
+}
+
+/* Spacing underneath Anchor Title */
+#main .project-thumb-wrap div:first-of-type {
+	margin-bottom: 20px;
+}
+
+/* General Anchor Styling */
+#main .project-thumb-wrap div a {
+	text-decoration: none;
+	font-size: 1.6em;
+	font-weight: 400;
+
+}
+
+/* Standard View Portfolio Items Effect */
+#portfolio-doc ul li {
+	background-color: transparent;
+	transition: background-color 1s;
+}
+
+/* Hover Effect on View Portfolio Items */
+#portfolio-doc ul li:hover {
+	background-color: #83d3c9;
+}
+
 
 
 /*.portfolio-item {
@@ -396,15 +469,23 @@ border-radius: 10px;
 
 /* Button Background color*/
 .dark-matter .button {
-	background-color: rgba(212, 198, 106, 1);
+	background-color: transparent;
+	transition: background-color 1s;
+
 }
 
 /* Button Background Color Hover */
 .dark-matter .button:hover {
-	background-color: transparent;
+	background-color: #83d3c9;
     color: #F5F5F5;
 	border: 1px solid #F5F5F5;
 }
+
+/* Hover Effect on View Portfolio Items */
+#portfolio-doc ul li:hover {
+	background-color: #83d3c9;
+}
+
 
 
 /* ===== END CONTACT FORM ===== */
