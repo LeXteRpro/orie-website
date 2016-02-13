@@ -29,6 +29,30 @@ body {
 }
 
 
+#header p {
+	display: inline-block;
+}
+
+
+#header #logo {
+	width: 600px;
+	margin-right: 40px;
+}
+
+.logo-image {
+	width: 55px;
+	margin: -15px 8px auto -20px;
+	transition: 1s;
+}
+
+.logo-image:hover {
+	transform: rotate(360deg);
+}
+
+
+
+
+
 #banner {
 	background: none;
 	background-image: url("../images/bg3-lg.jpg");

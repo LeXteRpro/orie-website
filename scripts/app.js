@@ -17,7 +17,7 @@ $("#contact-link").click(function() {
 
   // Anonymous function with named alias
 (function(){
-	    console.log("App started...");
+
     // Declare an anonymous function with named alias
     var replaceWhoIsOrie = function() {
                console.log("Replace Paragraph description of Orie")
