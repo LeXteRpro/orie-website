@@ -12,7 +12,7 @@ h1 span {
 	padding-left: 5px;
 }
 
-
+/* Basic Header Styling */
 h4 {
 	font-size: 1.3em;
 	margin-bottom: 8px;
@@ -28,31 +28,27 @@ body {
 	background-color: #1c2021;
 }
 
-
+/* Allowing a couple elements to be inline */
 #header p {
 	display: inline-block;
 }
 
 
-#header #logo {
-	width: 600px;
-	margin-right: 40px;
-}
 
+/* Logo Image and Animation */
 .logo-image {
 	width: 45px;
 	margin: -15px 8px auto -20px;
 	transition: 1s;
 }
 
+/* Logo Image Hover */
 .logo-image:hover {
 	transform: rotate(360deg);
 }
 
 
-
-
-
+/* Main Banner on page */
 #banner {
 	background: none;
 	background-image: url("../images/bg3-lg.jpg");
@@ -405,7 +401,7 @@ border-radius: 10px;
 }
 
 
-/* #### Dark Matter #### */
+/* FORM STYLES */
 .dark-matter {
     margin-left: auto;
     margin-right: auto;
@@ -514,13 +510,14 @@ border-radius: 10px;
 
 /* ===== END CONTACT FORM ===== */
 
-
+/* Adjusting font size for screen */
 @media (max-width: 750px) {
 
 #banner .inner header h2  {
 	font-size: 2em;
 }
 
+/* Adjust Banner for screen size */
 #banner .inner {
 	margin: 0;
 	background: rgba(52, 27, 43, 0.5);
