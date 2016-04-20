@@ -102,6 +102,7 @@
 						</ul>
 					</div>
 
+
 					<header class="special container">
 						<!-- <img src="content/images/orie-portrait.jpg" alt="Portrait" /> -->
 						<span class="icon fa fa-arrow-down"></span>
@@ -111,19 +112,9 @@
 
 					<section class="wrapper style1 container special">
 						<div class="row">
-							<div class="4u 12u(narrower)">
-								<section>
-									<span class="icon featured fa fa-smile-o"></span>
-									<header>
-										<h3>Who am I</h3>
-									</header>
-									<!--Inline Javascript-->
-									<p id="whoIsOrie">This text is replaced with inline Javascript</p>
-									<a href="">Full Biography</a>
-								</section>
-
-							</div>
-							<div class="4u 12u(narrower)">
+							
+					<div class="font-end 2u 2u(narrower)"></div>
+							<div class="font-end 8u 8u(narrower)">
 
 								<section>
 									<span class="icon featured fa fa-desktop"></span>
@@ -131,29 +122,18 @@
 										<h3>What I do</h3>
 									</header>
 									<!--Inline Javascript-->
-									<p id="whatOrieDoes">This text is replaced with inline Javascript>
-									</section>
-
-								</div>
-								<div class="4u 12u(narrower)">
-
-									<section>
-										<span class="icon featured fa fa-calendar-check-o"></span>
-										<header>
-											<h3>Goals</h3>
-										</header>
-										<!--Inline Javascript-->
-										<p id="goalsOfOrie">This text is replaced with inline javascript</p>
+									<p id="paragraph2">What I do Text</p>
 									</section>
 
 								</div>
 							</div>
+							<div class="font-end 2u 2u(narrower)"></div>
 						</section>
 
 
 						<section class="wrapper style1 container special">
 							<div class="skills row">
-								<section class=" font-end 6u 12u(narrower)">
+								<section class=" font-end 12u 12u(narrower)">
 									<table>
 										<thead>
 											<tr>
@@ -327,35 +307,42 @@
 						<div id="contact-form" class="col-xs-11 col-sm-7 col-md-8" >
 
 							<h2><strong>Send a Message</strong></h2>
-							<form action="" method="post" class="dark-matter">
+							<form class="dark-matter">
 
 								<label>
 									<span>Your Name :</span>
-									<input id="name" type="text" name="name" placeholder="Your Full Name" />
+									<input id="form_name" type="text" name="name" placeholder="Your Full Name" />
 								</label>
 
 								<label>
 									<span>Your Email :</span>
-									<input id="email" type="email" name="email" placeholder="Valid Email Address" />
+									<input id="form_email" type="email" name="email" placeholder="Valid Email Address" />
 								</label>
 
 								<label>
 									<span>Message :</span>
-									<textarea id="message" name="message" placeholder="Your Message"></textarea>
+									<textarea id="form_message" name="message" placeholder="Your Message"></textarea>
 								</label>  
 
 								<div class="button-wrapper">
 									<ul class="buttons">
-										<li><a href="#" class="button">Send</a></li>
+										<li><a href="#" class="button" id="submit_button">Send</a></li>
 									</ul>  
 								</div>
 							</form>
 
 						</div>
+
 					</section>
 
 
-
+					<div class="row my-ad">
+						<div class="4u 4u(narrower)"></div>
+						<div class="4u 4u(narrower)">
+							<canvas id="canvas" width="480" height="480"></canvas>
+						</div>
+						<div class="4u 4u(narrower)"></div>	
+					</div>
 
 
 					<!-- Footer -->
@@ -378,6 +365,11 @@
 					</footer>
 
 
+        </div>
+    </div>
+
+
+
 				</div>
 
 				<!-- THEME JS Scripts -->
@@ -393,11 +385,18 @@
 				<!-- My Scripts-->
 
 				<!-- JQUERY-->
-				<script src="scripts/lib/jquery-2.2.0.min.js"></script>
+				<script src="scripts/lib/jquery/dist/jquery.min.js"></script>
 
 				<!-- Bootstrap-->
 				<script src="scripts/lib/bootstrap.min.js"></script>
+				
+				
+			    <script src="scripts/lib/EaselJS/lib/easeljs-0.8.2.min.js"></script>
+			    <script src="scripts/lib/TweenJS/lib/tweenjs-0.6.2.min.js"></script>
+			    <script src="scripts/lib/SoundJS/lib/soundjs-0.6.2.min.js"></script>
+			    <script src="scripts/lib/PreloadJS/lib/preloadjs-0.6.2.min.js"></script>
 				<!-- My Scripts-->
+				<script src="scripts/paragraphs.js"></script>
 				<script src="scripts/app.js"></script>
 
 			</body>
