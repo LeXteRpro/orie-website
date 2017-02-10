@@ -1,3 +1,4 @@
+"use strict";
 
 //Scroll Down to Portfolio section 
 $("#portfolio-link").click(function() {
@@ -14,7 +15,6 @@ $("#contact-link").click(function() {
 });
 
 
-
   // Anonymous function with named alias
 (function(){
 
@@ -29,7 +29,6 @@ $("#contact-link").click(function() {
     // Call the replaceFirstParagrah function
     replaceWhoIsOrie();
     
-
 
     // Declare an anonymous function with named alias
     var replaceWhatOrieDoes = function() {
@@ -51,6 +50,21 @@ var replaceGoalsOfOrie = function() {
 }
 
 replaceGoalsOfOrie();
+
+
+
+// console.log("Hello, User!");
+// var email = document.getElementById("form_email");
+// var password = document.getElementById("form_password");
+// var message = document.getElementById("form_message");
+// var submit = document.getElementById("submit_button");
+
+// submit.addEventListener("click", function(event) {
+//     console.log ("Email " + email.value);
+//     console.log ("Password: " + password.value);
+
+// }); // End Event Handler
+
 
 
 
